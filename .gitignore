@@ -1,0 +1,36 @@
+# 1. Python 编译缓存（这玩意最烦人，必须屏蔽）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 2. 虚拟环境（如果你以后用 venv 的话）
+.venv/
+venv/
+ENV/
+env/
+
+# 3. 编辑器配置（防止把你的个人喜好传到 GitHub）
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 4. 操作系统垃圾文件（Windows 和 Mac 的隐藏系统文件）
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 5. 测试和代码检查工具产生的临时文件
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 6. Jupyter Notebook 缓存（如果你偶尔用 notebook 调试）
+.ipynb_checkpoints/
+
+# 7. 日志和数据库文件（如果有的话）
+*.log
+*.sqlite3
