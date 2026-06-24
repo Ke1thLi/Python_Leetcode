@@ -13,6 +13,7 @@ env/
 # 3. 编辑器配置（防止把你的个人喜好传到 GitHub）
 .vscode/
 .idea/
+.claude/ 
 *.swp
 *.swo
 
