@@ -12,6 +12,7 @@
 | 167 | 两数之和 II | 中等 | 双指针（对撞） | [笔记](./Notes/167_two_sum_ii.md) | [源码](./Code/167_two_sum_ii.py) |
 | 209 | 长度最小的子数组 | 中等 | 滑动窗口 | [笔记](./Notes/209_min_size_subarray_sum.md) | [源码](./Code/209.长度最小的子数组.py) |
 | 3 | 无重复字符的最长子串 | 中等 | 滑动窗口 | [笔记](./Notes/3_longest_substring_without_repeating_characters.md) | [源码](./Code/3.无重复字符的最长子串.py) |
+| 26 | 删除有序数组中的重复项 | 简单 | 快慢指针 | [笔记](./Notes/26_remove_duplicates_from_sorted_array.md) | [源码](./Code/26.删除有序数组中的重复项.py) |
 
 ---
 
@@ -21,6 +22,7 @@
 - 有序数组找两数 → 双指针（对撞）
 - 最短连续子数组 → 滑动窗口（同向双指针）
 - 无重复子串最长长度 → 滑动窗口 + 哈希表记录字符位置
+- 有序数组去重 → 快慢指针，慢指针维护不重复区边界
 
 ---
 
@@ -30,10 +32,11 @@
 - 双指针：[167. 两数之和 II](./Notes/167_two_sum_ii.md)
 - 滑动窗口：[209. 长度最小的子数组](./Notes/209_min_size_subarray_sum.md)
 - 滑动窗口（字符串）：[3. 无重复字符的最长子串](./Notes/3_longest_substring_without_repeating_characters.md)
+- 快慢指针：[26. 删除有序数组中的重复项](./Notes/26_remove_duplicates_from_sorted_array.md)
 
 ---
 
 ## 下一题推荐
 
-> [26. 删除有序数组中的重复项](./Notes/26_remove_duplicates_from_sorted_array.md)  
-> 理由：同向双指针换场景，维护「不重复区」位置指针。
+> [704. 二分查找](./Notes/704_binary_search.md)
+> 理由：你主动选的，二分查找是基础搜索算法，也是后续很多题的基础工具。
